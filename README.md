@@ -16,9 +16,6 @@ def clean_mean_auto(sample, cutoff):
         upper = data_mean + cut_off_val
         new = [x for x in old if x >= lower and x <= upper]  
         sample = new
-        #print(old)
-        #print(new)
-        #print('\n')
         
     print(new)
     
