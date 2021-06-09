@@ -3,8 +3,10 @@ A routine that removes the outliers of a dataset until there is none left.
 
 ```ruby
 def clean_mean_auto(sample, cutoff):
+
     new = []
     old = sample
+    
     while old != new:
         old = sample                                
         data_mean = np.mean(old) 
@@ -17,7 +19,9 @@ def clean_mean_auto(sample, cutoff):
         #print(old)
         #print(new)
         #print('\n')
+        
     print(new)
+    
     return round(np.mean(new),2)
     
 ```
