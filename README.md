@@ -22,3 +22,5 @@ def clean_mean_auto(sample, cutoff):
     return round(np.mean(new),2)
     
 ```
+
+
