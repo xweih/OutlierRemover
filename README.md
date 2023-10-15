@@ -16,7 +16,7 @@ def clean_mean_auto(sample, cutoff):
         upper = data_mean + cut_off_val
         new = [x for x in old if x >= lower and x <= upper]  
         sample = new
-        
+
     print(new)
     
     return round(np.mean(new),2)
