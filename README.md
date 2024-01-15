@@ -1,6 +1,7 @@
 # Outlier Remover
 A routine that removes the outliers of a dataset until there is none left. 
 
+
 ```ruby
 def clean_mean_auto(sample, cutoff):
 
