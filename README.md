@@ -26,4 +26,3 @@ def clean_mean_auto(sample, cutoff):
 
 
 
-
